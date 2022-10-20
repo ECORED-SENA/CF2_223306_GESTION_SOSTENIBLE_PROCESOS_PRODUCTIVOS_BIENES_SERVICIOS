@@ -7,7 +7,7 @@
         span 1
       h1 Promotoría y medios de comunicación
       
-    p(data-aos="fade-down").mb-5 La promotoría hace referencia a las actividades diseñadas para dar respuesta a las diferentes necesidades que se tienen en el punto de venta. Es fundamental revisar toda la cadena del producto hasta, incluso, su llegada al consumidor final; esto implica mayor difusión del producto mediante la publicidad, las actividades de exhibición y la muestra en el punto de venta y en los diferentes establecimientos. 
+    p(data-aos="fade-down").mb-5 La promotoría hace referencia a las actividades diseñadas para dar respuesta a las diferentes necesidades que se tienen en el punto de venta. Es fundamental revisar toda la cadena del producto hasta, incluso, su llegada al consumidor final; esto implica mayor difusión del producto mediante la publicidad, las actividades de #[b exhibición y la muestra] en el punto de venta y en los diferentes establecimientos. 
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10(data-aos="zoom-in")
@@ -43,7 +43,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-6 
             h4 Visión de mercado
-            p La promotoría es un marketing que se da a través de un control sobre los consumidores, donde un equipo de trabajo se encarga de dar a conocer el producto, digital y físicamente, buscando la atención de nuevos clientes que quieran trabajar con el producto, convirtiéndose en un punto de venta y distribución.   
+            p La promotoría es un <i>marketing</i> que se da a través de un control sobre los consumidores, donde un equipo de trabajo se encarga de dar a conocer el producto, digital y físicamente, buscando la atención de nuevos clientes que quieran trabajar con el producto, convirtiéndose en un punto de venta y distribución.   
           .col-lg-4
             img.img-a.img-t(src='@/assets/curso/temas/img9.png', alt='') 
       .py-4.py-md-5(titulo="Canales comunicativos" :icono="require('@/assets/curso/temas/img6.svg')")
@@ -73,7 +73,7 @@
         p(data-aos="fade-down").mb-0 Parte de las facultades de un óptimo promotor es tener una vasta capacidad de negociación y un claro conocimiento de las directrices de ejecución de la marca o producto; esto se traducirá en la indagación permanente, el conocimiento de la competencia, la identificación de las necesidades y el desarrollo correcto del mercadeo, con el propósito de que la vivencia de compra sea conveniente para la marca y positiva para el consumidor.
       .col-lg-4
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img12.svg', alt='') 
-
+    p(data-aos="fade-down").mb-5 Estas son algunas de las características más destacadas con las que debe contar un buen promotor:
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-12.pt-5
         .tarjeta.position-relative.rounded-0.bg3.p-4.mb-5(data-aos="flip-down")
@@ -357,7 +357,7 @@
       span Tipos de divulgación
     .tabla-a.tpurple.mb-5(data-aos='fade-left')
       table.table1
-        caption #[b Nota.] Adaptado de Duque et al. (2014).
+        caption #[b Nota.] Adaptada de Tipos de divulgación de Ing. Chirinos (s.f.).
         thead
           tr
             th Título

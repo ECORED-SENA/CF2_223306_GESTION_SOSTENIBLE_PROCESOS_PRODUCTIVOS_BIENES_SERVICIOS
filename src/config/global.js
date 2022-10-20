@@ -190,7 +190,7 @@ export default {
     {
       tema: 'Equipos de trabajo',
       referencia:
-        'Inmaculada de Parla. (2013). <i>Definición de promotor</i> [video].',
+        'Briceño, B. (2016). <i>Roles de un equipo de trabajo<i> [video]. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=0M7TcfJ86eo',
     },
@@ -398,7 +398,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

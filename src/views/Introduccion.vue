@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
     
-    p(data-aos="fade-down") Aquí comienza el estudio del componente “Plan de promotoría y medios de divulgación”, tenga una experiencia de aprendizaje satisfactoria; inicie visualizando el recurso que se propone a continuación. 
+    p(data-aos="fade-down") Aquí comienza el estudio del componente #[b “Plan de promotoría y medios de divulgación”], tenga una experiencia de aprendizaje satisfactoria; inicie visualizando el recurso que se propone a continuación. 
 
     h5(data-aos="fade-down").mb-5 ¡Adelante!
     

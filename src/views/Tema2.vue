@@ -331,17 +331,17 @@
         .col-lg-4
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img70.png', alt='')
              
-    .row.justify-content-center.align-items-center      
-      .col-lg-12.pt-5
-        .tarjeta.position-relative.rounded-0.bg3.p-4.mb-5(data-aos="flip-down")
-          .row.justify-content-center.align-items-center
-            .col-lg-2.col-5.mb-lg-0.mb-3
-              .imagen-absolute1
-                img(data-aos="zoom-in")(src='@/assets/curso/temas/img3.svg', alt='')
-            .col-lg-10
-              p(data-aos="fade-down").mb-0.p-3 #[b ¡Atención!] El moderador es un administrador en la reunión, también encargado de la logística, así que si todo sale bien se le reconoce y si todo sale mal el moderador asume la responsabilidad; un moderador debe saber lidiar con los pensamientos y comportamientos de las personas dentro de una sala donde se procesan temas que pueden llevar al acuerdo o desacuerdo de los integrantes de un equipo.
+    //- .row.justify-content-center.align-items-center      
+    //-   .col-lg-12.pt-5
+    //-     .tarjeta.position-relative.rounded-0.bg3.p-4.mb-5(data-aos="flip-down")
+    //-       .row.justify-content-center.align-items-center
+    //-         .col-lg-2.col-5.mb-lg-0.mb-3
+    //-           .imagen-absolute1
+    //-             img(data-aos="zoom-in")(src='@/assets/curso/temas/img3.svg', alt='')
+    //-         .col-lg-10
+    //-           p(data-aos="fade-down").mb-0.p-3 #[b ¡Atención!] El moderador es un administrador en la reunión, también encargado de la logística, así que si todo sale bien se le reconoce y si todo sale mal el moderador asume la responsabilidad; un moderador debe saber lidiar con los pensamientos y comportamientos de las personas dentro de una sala donde se procesan temas que pueden llevar al acuerdo o desacuerdo de los integrantes de un equipo.
 
-    .row.justify-content-center.align-items-center.mb-5           
+    .row.justify-content-center.align-items-center.my-5           
       .col-lg-10
         TabsC.color-acento-botones
           .py-3.py-md-4(titulo="Presentación del equipo")
@@ -383,8 +383,8 @@
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.4 Conceptos, tipos y características 
 
-    p(data-aos="fade-down").mb-5 Cuando se habla de un cronograma de trabajo se hace referencia a una herramienta para diseñar calendarios de trabajo, el cual permite obtener información de manera ordenada, donde se vean las funciones de cada uno y el tiempo que tiene para su desarrollo. 
-
+    p(data-aos="fade-down") Cuando se habla de un cronograma de trabajo se hace referencia a una herramienta para diseñar calendarios de trabajo, el cual permite obtener información de manera ordenada, donde se vean las funciones de cada uno y el tiempo que tiene para su desarrollo. 
+    p(data-aos="fade-down").mb-5 En la actualidad existen varios tipos de cronograma con características particulares. Entre los más comunes y usados se pueden mencionar: 
     .bg22
       .row.justify-content-center.align-items-stretch       
         .col-lg-3.col-md-6.col-sm-6.my-3
