@@ -101,33 +101,33 @@
       .row.justify-content-center.align-items-start(titulo="Análisis FODA")
         .col-lg-7
           p En este análisis se busca identificar fortalezas, oportunidades, debilidades y amenazas de la empresa. Esta herramienta busca analizar de manera profunda cada uno de los factores de la empresa, permitiendo así una toma de decisión más certera. 
-        .col-lg-4
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img118.png', alt='')   
+        .col-lg-5
+          img.img-a.img-t(src='@/assets/curso/temas/img118.png', alt='')   
       .row.justify-content-center.align-items-start(titulo="Matriz de decisión")
         .col-lg-7
           p Es una herramienta gráfica que permite tomar una decisión radical, evaluando y escogiendo la mejor opción entre diferentes alternativas, teniendo en cuenta los factores de cada alternativa para la decisión final. 
-        .col-lg-4
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img119.png', alt='')
+        .col-lg-5
+          img.img-a.img-t(src='@/assets/curso/temas/img119.png', alt='')
       .row.justify-content-center.align-items-start(titulo="Árbol de decisión")
         .col-lg-7
           p Es el diseño de un mapa donde se muestran ciertos resultados de las posibles decisiones que se pueden tomar, permitiendo comparar entre varias acciones, sus probabilidades y beneficios. 
-        .col-lg-4
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img120.png', alt='')
+        .col-lg-5
+          img.img-a.img-t(src='@/assets/curso/temas/img120.png', alt='')
       .row.justify-content-center.align-items-start(titulo="Análisis de Pareto")
         .col-lg-7
           p Es un diagrama que permite evaluar el nivel de prioridad que se le debe dar a las acciones a tomar, para llegar al objetivo final. Se trata de una técnica que clasifica de mayor a menor importancia la información. Lo hace de manera gráfica para favorecer una fácil comprensión. 
-        .col-lg-4
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img121.png', alt='')
+        .col-lg-5
+          img.img-a.img-t(src='@/assets/curso/temas/img121.png', alt='')
       .row.justify-content-center.align-items-start(titulo="<i>Workflows</i>")
         .col-lg-7
           p Se trata de un conjunto de ideas organizadas en forma de flujo de diagrama; las mismas están enfocadas hacia el objetivo principal, llevando cada día, un orden que permita construir el camino a desarrollar y se haga seguimiento a la información obtenida para la creación de nuevas tareas. 
-        .col-lg-4
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img122.png', alt='')
+        .col-lg-5
+          img.img-a.img-t(src='@/assets/curso/temas/img122.png', alt='')
       .row.justify-content-center.align-items-start(titulo="Indicadores")
         .col-lg-7
           p Un indicador es aquel que permite dar un veredicto final, permitiendo juzgar los resultados que se han obtenido sobre los objetivos desarrollados en el proyecto, detallando y midiendo los logros de cada uno de los objetivos. Los indicadores pueden ser cualitativos y cuantitativos. 
-        .col-lg-4
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img123.png', alt='')
+        .col-lg-5
+          img.img-a.img-t(src='@/assets/curso/temas/img123.png', alt='')
 
     p(data-aos="fade-down").mb-5 La siguiente tabla muestra cuatro formas específicas para la creación de indicadores. Visualice con atención la información que en ella se detalla y procure llevar registro de lo más destacado:
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -156,7 +156,7 @@
 
 
     .bg15.px-5.mb-3.py-3
-      .row.justify-content-center.align-items-center.ps-5           
+      .row.justify-content-center.align-items-center.ps-5.mov           
         .col-lg-6.my-3
           h5(data-aos="fade-down").mb-4 Existen varios tipos de indicadores, entre los cuales se encuentran:
           .row.justify-content-center.align-items-center.ps-5           
@@ -224,7 +224,7 @@
         p(data-aos="fade-down") Son un conjunto de datos que se recolectan para lograr la conclusión de cierta información en favor de la toma de la decisión. Esta información es estudiada a fondo para dar una conclusión a su resultado. En esta acción suele usarse un programa estadístico que favorezca el análisis de variables y relaciones multivalentes.         
 
     .bg12.px-5.mb-3.py-3
-      .row.justify-content-center.align-items-center.ps-5
+      .row.justify-content-center.align-items-center.ps-5.mov
         h5(data-aos="fade-down").mb-4 Existen técnicas de análisis de información simples como lo son los análisis de imagen, video y voz, pero también existen técnicas más complejas como:
         .col-lg-6.my-3
           .row.justify-content-center.align-items-start.ps-5           

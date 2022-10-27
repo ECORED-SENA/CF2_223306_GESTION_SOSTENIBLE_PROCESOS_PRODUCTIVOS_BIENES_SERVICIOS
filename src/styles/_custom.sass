@@ -82,6 +82,10 @@
     width: 0px
     left: 1%
     display: none 
+  @media (max-width: $bp-max-md) 
+    top: -25%
+    left: 10%
+    width: 550px
 
 .imgs-flotantes1
   position: relative
@@ -271,14 +275,25 @@
 
 .bg17
   background-color: #BCA9F7
-  border-radius: 0 20px 20px 0         
+  border-radius: 0 20px 20px 0
+  @media (max-width: $bp-max-sm)
+    border-radius: 20px
+ 
 
 .bg18
   background-color: #FAEBCD
   border-radius: 0 20px 20px 0
-  
+  @media (max-width: $bp-max-sm)
+    border-radius: 20px
+ 
+.mov
+  @media (max-width: $bp-max-sm)
+    padding-left: 0px !important   
+
 .bleft  
-  border-left: 15px solid white    
+  border-left: 15px solid white
+  @media (max-width: $bp-max-md)
+    border-left: 0px solid
 
 .imagen-absolute5
   position: absolute
@@ -374,7 +389,10 @@
   border: 2px solid #449C6E
   margin-left: 1rem  
   margin-right: 1rem
-  border-radius: 20px    
+  border-radius: 20px 
+  margin-bottom: 1rem 
+  @media (max-width: $bp-max-md)
+    width: 40%    
 
 .tabs-c__tab--active, .tabs-c__tab--active:hover
   background-color: #449C6E
@@ -488,8 +506,8 @@
   background-color: #F0BD51
 
 .tarjeta-flip.color-primario .tarjeta-flip__img
-  background-color: #FAEBCD      
-
+  background-color: #FAEBCD 
+  
 .color-fondo-text1
   position: relative
   &:before
@@ -508,6 +526,9 @@
   &.bg-color
     &:before
       background-color: #F0ECFF
+
+.cardt
+  height: 400px !important
 
 .table1 
   width: auto !important       
@@ -538,3 +559,13 @@
   @media (max-width: $bp-max-lg)
     position: inherit
     transform: none     
+
+.tabs-b__tab
+  filter: grayscale(100%)     
+
+.tabs-b.color-acento-contenido .tabs-b__tab--active
+  filter: grayscale(0) !important
+
+.img-w
+ width: 35% !important
+ top: 5% !important

@@ -15,7 +15,7 @@
           .bloque-texto-g__img(
             :style="{'background-image':`url(${require('@/assets/curso/temas/img1.png')})`}"
           )
-            .imagen-superior.position-absolute.mv(style='bottom:0% ; left: 20%; z-index:2'): img(src='@/assets/curso/temas/img2.png')
+            .imagen-superior.position-absolute.mv.px-5(style='bottom:0% ; left: 20%; z-index:2'): img(src='@/assets/curso/temas/img2.png')
           .bloque-texto-g__texto.px-4.py-5
             p.mb-0.pe-5.pmov Por lo cual, es acertado asegurar que las personas que trabajan en promotoría son las #[b encargadas de impulsar los productos y las ventas] de los diferentes locales o establecimientos, con el objetivo de fidelizar al consumidor en las diferentes marcas y productos que se exhiben de muchas empresas. 
 
@@ -188,23 +188,23 @@
       .tarjeta-avatar
         img.img-a.img-t(src='@/assets/curso/temas/img28.svg' alt='AvatarTop')
         div.bg10.p-5.h-100
-          p.pt-5.mb-0.text-center ¿Quién comunica?
+          h4.pt-5.mb-0.text-center ¿Quién comunica?
       .tarjeta-avatar
         img.img-a.img-t(src='@/assets/curso/temas/img28.svg' alt='AvatarTop')
         div.bg11.p-5.h-100
-          p.pt-5.mb-0.text-center ¿Qué comunica?
+          h4.pt-5.mb-0.text-center ¿Qué comunica?
       .tarjeta-avatar
         img.img-a.img-t(src='@/assets/curso/temas/img28.svg' alt='AvatarTop')
         div.bg10.p-5.h-100
-          p.pt-5.mb-0.text-center ¿Con qué objetivos?      
+          h4.pt-5.mb-0.text-center ¿Con qué objetivos?      
       .tarjeta-avatar
         img.img-a.img-t(src='@/assets/curso/temas/img28.svg' alt='AvatarTop')
         div.bg11.p-5.h-100
-          p.pt-5.mb-0.text-center ¿Por cuáles medios?
+          h4.pt-5.mb-0.text-center ¿Por cuáles medios?
       .tarjeta-avatar
         img.img-a.img-t(src='@/assets/curso/temas/img28.svg' alt='AvatarTop')
         div.bg10.p-5.h-100
-          p.pt-5.mb-0.text-center ¿Con qué inversión?
+          h4.pt-5.mb-0.text-center ¿Con qué inversión?
 
     p(data-aos="fade-down").mb-5 Observe con atención el siguiente video, tome nota de las generalidades y aspectos clave que sobre la comunicación en procesos de promotoría se detallan:  
 
@@ -389,24 +389,24 @@
           img(data-aos="zoom-in")(src='@/assets/curso/temas/img40.svg', alt='') 
 
     .row.justify-content-center.align-items-stretch
-      .col-lg-6(data-aos="fade-left") 
+      .col-lg-6.my-3(data-aos="fade-left") 
         .row.justify-content-center.align-items-stretch
-          .col-lg-4.p-0
-            img(src='@/assets/curso/temas/img41.png', alt='')
-          .col-lg-8.p-0
+          .col-md-4.col-sm-12.p-0.my-3
+            img.img-a.img-t(src='@/assets/curso/temas/img41.png', alt='')
+          .col-md-8.col-sm-12.p-0.my-3
             .bg17.p-2.h-100
-              .titutlo.rounded-pill.d-inline-block.p-3.bg-white.mt-3.d-flex.justify-content-center.mb-3
+              .titutlo.rounded-pill.d-inline-block.p-3.bg-white.mt-3.d-flex.justify-content-center.mb-3.mx-5
                 h4.mb-0 Cuentas de control
-              p Las cuentas de control son muy importantes ya que permiten llevar la contabilidad de los gastos que se van llevando día tras día y así no perder el control del presupuesto y se generen sobrecostos en la aplicación. 
-      .col-lg-6.bleft(data-aos="fade-right")  
+              p.p-3.pt-0.mb-0 Las cuentas de control son muy importantes ya que permiten llevar la contabilidad de los gastos que se van llevando día tras día y así no perder el control del presupuesto y se generen sobrecostos en la aplicación. 
+      .col-lg-6.my-3.bleft(data-aos="fade-right")  
         .row.justify-content-center.align-items-stretch
-          .col-lg-4.p-0
-            img(src='@/assets/curso/temas/img42.png', alt='')
-          .col-lg-8.p-0
+          .col-md-4.col-sm-12.p-0.my-3
+            img.img-a.img-t(src='@/assets/curso/temas/img42.png', alt='')
+          .col-md-8.col-sm-12.p-0.my-3
             .bg18.p-2.h-100
-              .titutlo.rounded-pill.d-inline-block.p-3.bg-white.mt-3.d-flex.justify-content-center.mb-3
+              .titutlo.rounded-pill.d-inline-block.p-3.bg-white.mt-3.d-flex.justify-content-center.mb-3.mx-5
                 h4.mb-0 Aplicación del presupuesto
-              p El presupuesto y su aplicación se basan en el plano grama que fue diseñado para el PDV y en saber qué productos son los que se encuentran en el punto de venta de la empresa. 
+              p.p-3.mb-0 El presupuesto y su aplicación se basan en el plano grama que fue diseñado para el PDV y en saber qué productos son los que se encuentran en el punto de venta de la empresa. 
 </template>
 
 <script>

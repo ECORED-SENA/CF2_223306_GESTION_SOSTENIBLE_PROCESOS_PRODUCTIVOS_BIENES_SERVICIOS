@@ -131,50 +131,50 @@
     TabsA.color-acento-contenido.mb-5(data-aos="fade-right") 
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Latencia")
         .row.justify-content-center.align-items-center
-          .col-lg-8
+          .col-lg-8.my-3
             h4.mb-3 Latencia
             p.mb-0 Son constantes en la empresas, continuamente va a existir la probabilidad de mejorar.    
-          .col-lg-3
-            img.img-a.img-t(src='@/assets/curso/temas/img98.png', alt='') 
+          .col-lg-3.my-3
+            img.img-a.img-t(src='@/assets/curso/temas/img100.png', alt='') 
 
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Recursos")
         .row.justify-content-center.align-items-center
-          .col-lg-8
+          .col-lg-8.my-3
             h4.mb-3 Recursos
             p.mb-0 Para la mejora se debe tener en cuenta que los recursos accesibles son, la mayor parte de las veces, limitados.    
-          .col-lg-3
+          .col-lg-3.my-3
             img.img-a.img-t(src='@/assets/curso/temas/img99.png', alt='') 
 
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Criterios")
         .row.justify-content-center.align-items-center
-          .col-lg-8
+          .col-lg-8.my-3
             h4.mb-3 Criterios
             p.mb-0 Es secuencial disponer de criterios claros que permitan ver y priorizar los probables beneficios de cada posibilidad de optimización, así como los costes de llevarla a cabo.    
-          .col-lg-3
-            img.img-a.img-t(src='@/assets/curso/temas/img100.png', alt='') 
+          .col-lg-3.my-3
+            img.img-a.img-t(src='@/assets/curso/temas/img101.png', alt='') 
 
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Clasificación y orden")
         .row.justify-content-center.align-items-center
-          .col-lg-8
+          .col-lg-8.my-3
             h4.mb-3 Clasificación y orden
             p.mb-0 Las mejoras deberás ser iniciativas que se deben clasificar, otorgando un orden de prioridad acorde a los diversos criterios de interés para la organización, con componentes estratégicos como la visión y la misión.    
-          .col-lg-3
-            img.img-a.img-t(src='@/assets/curso/temas/img101.png', alt='') 
+          .col-lg-3.my-3
+            img.img-a.img-t(src='@/assets/curso/temas/img102.png', alt='') 
 
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Participación")
         .row.justify-content-center.align-items-center
-          .col-lg-8
+          .col-lg-8.my-3
             h4.mb-3 Participación
             p.mb-0 Cada miembro de la organización debe estar involucrado, de forma directa o indirecta, en las acciones de mejora; si embargo, dependiendo del objetivo perseguido se define un equipo encargado de llevar a cabo el proyecto de mejora.    
-          .col-lg-3
-            img.img-a.img-t(src='@/assets/curso/temas/img102.png', alt='') 
+          .col-lg-3.my-3
+            img.img-a.img-t(src='@/assets/curso/temas/img98.png', alt='') 
 
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Ciclos")
         .row.justify-content-center.align-items-center
-          .col-lg-8
+          .col-lg-8.my-3
             h4.mb-3 Ciclos
             p.mb-0 Hace referencia a los ciclos de mejora continua: un proceso que busca mejorar los productos, servicios y procesos de una organización, formando un método efectivo para lograr la calidad total del producto.    
-          .col-lg-3
+          .col-lg-3.my-3
             img.img-a.img-t(src='@/assets/curso/temas/img103.png', alt='')
 
     .row.justify-content-center.align-items-center      
@@ -187,9 +187,11 @@
             .col-lg-10
               p(data-aos="fade-down").mb-0.p-3 #[b ¡Recuerde!] El ciclo de mejora continua es de las herramientas más utilizadas por los de sistema de gestión, ayudando a las empresas a obtener mejoras en la productividad y en los precios de productos. La mejora continua tiene como objetivo el desarrollo de un compromiso con las metas de la empresa, buscando la forma de potenciar el proceso mismo.
 
-    .titulo-sexto.color-acento-contenido.mb-4(data-aos='fade-right')
-      h5 Figura 2  
-      span Ciclo de mejora continua
+    .row.justify-content-center.align-items-center.mb-5           
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-4(data-aos='fade-right')
+          h5 Figura 2  
+          span Ciclo de mejora continua
     ImagenInfografica.color-acento-botones.mb-5
       template(v-slot:imagen)
         figure
@@ -210,47 +212,51 @@
     h5(data-aos="fade-down").mb-5 En relación con el ciclo de mejora continua tenga presente la definición básica de cada uno de sus elementos, que son:
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
-      .col-lg-3
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+      .col-lg-3.col-md-6.col-sm-8.my-3
+        .tarjeta.tarjeta-flip.color-primario.cardt(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/img106.svg')})`}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/106.svg')})`}")
               .texto-flip.p-3
                 .titulo.d-inline-block.p-3.rounded-pill.bg-white
                   h5.px-4.mb-0 Planear
             .tarjeta-flip__contenido.p-4.p-xl-5
+              .py-5
               .bgp.mb-3.mx-3.p-2
                 h5.px-4.mb-0.text-center Planear
               p.mt-3 Se establecen objetivos en busca de obtener buenos resultados.
-      .col-lg-3
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+      .col-lg-3.col-md-6.col-sm-8.my-3
+        .tarjeta.tarjeta-flip.color-primario.cardt(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/img107.svg')})`}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/107.svg')})`}")
               .texto-flip.p-3
                 .titulo.d-inline-block.p-3.rounded-pill.bg-white
                   h5.px-4.mb-0 Hacer
             .tarjeta-flip__contenido.p-4.p-xl-5
+              .py-5
               .bgp.mb-3.mx-3.p-2
                 h5.px-4.mb-0.text-center Hacer
               p.mt-3 Se implementan aquellos procesos que permitan alcanzar los objetivos.
-      .col-lg-3
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+      .col-lg-3.col-md-6.col-sm-8.my-3
+        .tarjeta.tarjeta-flip.color-primario.cardt(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/img108.svg')})`}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/108.svg')})`}")
               .texto-flip.p-3
                 .titulo.d-inline-block.p-3.rounded-pill.bg-white
                   h5.px-4.mb-0 Verificar
             .tarjeta-flip__contenido.p-4.p-xl-5
+              .py-5
               .bgp.mb-3.mx-3.p-2
                 h5.px-4.mb-0.text-center Verificar
               p.mt-3 Se mide el proceso que se lleva, observando qué desempeño tiene.
-      .col-lg-3
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+      .col-lg-3.col-md-6.col-sm-8.my-3
+        .tarjeta.tarjeta-flip.color-primario.cardt(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/img109.svg')})`}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/109.svg')})`}")
               .texto-flip.p-3
                 .titulo.d-inline-block.p-3.rounded-pill.bg-white
                   h5.px-4.mb-0 Actuar
             .tarjeta-flip__contenido.p-4.p-xl-5
+              .py-5
               .bgp.mb-3.mx-3.p-2
                 h5.px-4.mb-0.text-center Actuar
               p.mt-3 Se toman las mejores acciones en busca de la mejora. 
@@ -272,7 +278,7 @@
           .bloque-texto-g__img(
             :style="{'background-image':`url(${require('@/assets/curso/temas/img1.png')})`}"
           )
-            .imagen-superior.position-absolute.mv(style='bottom:0% ; left: 20%; z-index:2'): img(src='@/assets/curso/temas/img111.svg')
+            .imagen-superior.position-absolute.mv.px-5(style='bottom:0% ; left: 20%; z-index:2'): img(src='@/assets/curso/temas/img111.svg')
           .bloque-texto-g__texto.px-4.py-5
             p.mb-0.pe-5.pmov Las técnicas de mejora continua ayudan a encontrar los indicadores clave de cada proceso de la empresa, diseñar la estrategia, escoger los objetivos e identificar qué herramientas digitales serán útiles y finalmente, analizar las métricas y los resultados obtenidos continuamente. 
 

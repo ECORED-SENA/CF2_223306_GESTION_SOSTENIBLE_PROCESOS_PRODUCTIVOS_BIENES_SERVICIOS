@@ -14,7 +14,7 @@
           .bloque-texto-g__img(
             :style="{'background-image':`url(${require('@/assets/curso/temas/img1.png')})`}"
           )
-            .imagen-superior.position-absolute.mv(style='bottom:0% ; left: 20%; z-index:2'): img(src='@/assets/curso/temas/img43.svg')
+            .imagen-superior.position-absolute.mv.px-4(style='bottom:0% ; left: 20%; z-index:2'): img(src='@/assets/curso/temas/img43.svg')
           .bloque-texto-g__texto.px-4.py-5
             p.mb-0.pe-5.pmov Cada comercio cuenta con sus propios obstáculos y retos al salir al mercado. Si el equipo está concentrado, motivado, cada uno de los esfuerzos dará buenos resultados. Un buen equipo de trabajo tiene buena comunicación y objetivos claros de lo que se va hacer cumpliendo con lo que se le pide.
 
@@ -30,7 +30,7 @@
               
     Separador 
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 Tipos y características
+      h2 2.1 Tipos y características
     .row.justify-content-between.align-items-center.position-relative
       .col-lg-11.up
         p(data-aos="fade-down") El personal de expertos asignados a las labores de la promotoría suele poseer una gigantesca inclinación por la publicidad y los negocios, así como por las ciencias económicas y empresariales. No obstante, la mayor parte de las organizaciones no acostumbran a solicitar obligatoriamente un título preeminente para esta tarea. #[b Además de ciertas características con las que debe contar el personal, este puede ser clasificado en perfiles como:]      
@@ -68,23 +68,23 @@
     p(data-aos="fade-down").mb-5 Un promotor ha de tener en su perfil capacidades y rasgos que le permitan ser competente para lograr ventas y aportar identidad a la marca, a los productos y al equipo mismo. #[b Ser un gran promotor implica cultivar rasgos como:]
     SlyderF.slyder-100.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-right")   
       .tarjeta-avatar
-        img.img-a.img-t(src='@/assets/curso/temas/img45.svg' alt='AvatarTop')
+        img.img-a.img-t.img-w(src='@/assets/curso/temas/img45.svg' alt='AvatarTop')
         div.bg19.p-5.h-100
           p.pt-5.mb-0 Responsabilidad, dinamismo, proactividad, don de gente. 
       .tarjeta-avatar
-        img.img-a.img-t(src='@/assets/curso/temas/img46.svg' alt='AvatarTop')
+        img.img-a.img-t.img-w(src='@/assets/curso/temas/img46.svg' alt='AvatarTop')
         div.bg20.p-5.h-100
           p.pt-5.mb-0 Habilidades comunicativas de negociación, capacidad de persuación.
       .tarjeta-avatar
-        img.img-a.img-t(src='@/assets/curso/temas/img47.svg' alt='AvatarTop')
+        img.img-a.img-t.img-w(src='@/assets/curso/temas/img47.svg' alt='AvatarTop')
         div.bg19.p-5.h-100
           p.pt-5.mb-0 Iniciativa, orientación al logro de resultados, habilidades comerciales.
       .tarjeta-avatar
-        img.img-a.img-t(src='@/assets/curso/temas/img48.svg' alt='AvatarTop')
+        img.img-a.img-t.img-w(src='@/assets/curso/temas/img48.svg' alt='AvatarTop')
         div.bg20.p-5.h-100
           p.pt-5.mb-0 Promociona productos para el incremento de ventas, promueve servicios y productos de la compañía, trata con clientes o público en general.
       .tarjeta-avatar
-        img.img-a.img-t(src='@/assets/curso/temas/img49.svg' alt='AvatarTop')
+        img.img-a.img-t.img-w(src='@/assets/curso/temas/img49.svg' alt='AvatarTop')
         div.bg19.p-5.h-100
           p.pt-5.mb-0 Vende sus productos a personas en sus domicilios, vende productos al por menor al público en general.  
 
@@ -149,7 +149,7 @@
         p(data-aos="fade-down") #[b El moderador de una junta tiene el deber de hacer que los diferentes competidores se impliquen], de manera que se beneficien unos de otros y cada cual ofrezca su aporte para que el trabajo en grupo tenga triunfo.
 
     .bg15.px-5.mb-3.py-3
-      .row.justify-content-center.align-items-center.ps-5           
+      .row.justify-content-center.align-items-center.ps-5.mov           
         .col-lg-6.my-3 
           h4.mb-3(data-aos="fade-down") En lo relacionado con el moderador, este:
           ul.lista-ul--color(data-aos="fade-down")
@@ -276,7 +276,7 @@
           .bloque-texto-g__img(
             :style="{'background-image':`url(${require('@/assets/curso/temas/img1.png')})`}"
           )
-            .imagen-superior.position-absolute.mv(style='bottom:20% ; left: 22%; z-index:2'): img(src='@/assets/curso/temas/img69.svg')
+            .imagen-superior.position-absolute.mv.px-4(style='bottom:20% ; left: 22%; z-index:2'): img(src='@/assets/curso/temas/img69.svg')
           .bloque-texto-g__texto.px-4.py-5
             p.mb-0.pe-5.pmov En la moderación se usan, de manera sistemática, una secuencia de medios de soporte para el trabajo conjunto, con los cuales se favorece la colaboración de los miembros de una junta. Con el devenir de los tiempos, los procedimientos de moderación fueron evolucionando a partir de los viajes de estudios o el trabajo personal, a los teatros de comercialización o la implementación de sistemas audiovisuales electrónicos. Con todo ello, se ha conseguido un grupo de sistemas complementarios que permite las labores de aprendizaje y trabajo.
 
@@ -503,37 +503,37 @@
         .col-lg-7
           p Es fundamental que se determinen ciertos elementos y aspectos configurativos, tales como la duración de cada labor, ya que así es como los gráficos trabajan mayormente.
         .col-lg-4
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img86.png', alt='')
+          img.img-a.img-t(src='@/assets/curso/temas/img86.png', alt='')
       .row.justify-content-center.align-items-start(titulo="Seguimiento")
         .col-lg-7
           p Contar con un cronograma de trabajo ayuda a llevar un mejor seguimiento y control de las actividades que se están realizando. Ello favorece la labor de supervisión y evita retrasos o tareas faltantes. 
         .col-lg-4
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img87.png', alt='')
+          img.img-a.img-t(src='@/assets/curso/temas/img87.png', alt='')
       .row.justify-content-center.align-items-start(titulo="Consideración de recursos")
         .col-lg-7
           p El cronograma permite tener la mejor manera de saber qué recursos faltan o existen a la mano para el desarrollo del proyecto. Con ello, se pueden controlar las actividades de cada uno de los integrantes y el tiempo. Además, se anticipan acciones para los retrasos que se pueden provocar por cualquier motivo.
         .col-lg-4
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img88.png', alt='')
+          img.img-a.img-t(src='@/assets/curso/temas/img88.png', alt='')
       .row.justify-content-center.align-items-start(titulo="Mirada transversal")
         .col-lg-7
           p El cronograma dentro de una empresa ofrece un panorama global de las áreas de la empresa y sus desempeños: quién sí y quién no está cumpliendo las metas, etc. Es por eso que se debe seleccionar el cronograma que más se acomode a la empresa o proyecto.
         .col-lg-4
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img89.png', alt='')
+          img.img-a.img-t(src='@/assets/curso/temas/img89.png', alt='')
       .row.justify-content-center.align-items-start(titulo="Ventajas")
         .col-lg-7
           p Algunas de las ventajas que se pueden obtener con la elaboración de un cronograma apropiado son: orden de las tareas, supervisión de la proactividad, análisis del avance y estado de las actividades y procesos.
         .col-lg-4
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img90.png', alt='')
+          img.img-a.img-t(src='@/assets/curso/temas/img90.png', alt='')
       .row.justify-content-center.align-items-start(titulo="Riesgos")
         .col-lg-7
           p Un cronograma corre con ciertos riesgos, ya que el margen de tiempo que se establece a veces no llega a favorecer, pues al ser diseñado no se tiene en cuenta factores externos que puedan afectar el desarrollo de algunas tareas. No obstante, son factores que pueden ser controlados en la gran mayoría de los casos.
         .col-lg-4
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img91.png', alt='')
+          img.img-a.img-t(src='@/assets/curso/temas/img91.png', alt='')
       .row.justify-content-center.align-items-start(titulo="Tipos")
         .col-lg-7
           p Los tipos de cronograma más comunes y usados suelen ser: plan narrado, barras de Gantt, método de la ruta crítica y cronograma lineal.
         .col-lg-4
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img92.png', alt='')
+          img.img-a.img-t(src='@/assets/curso/temas/img92.png', alt='')
 
 
 </template>
