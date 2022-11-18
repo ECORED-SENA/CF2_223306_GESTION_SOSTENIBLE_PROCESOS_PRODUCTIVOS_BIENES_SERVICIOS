@@ -74,7 +74,7 @@
       .tarjeta-avatar
         img.img-a.img-t.img-w(src='@/assets/curso/temas/img46.svg' alt='AvatarTop')
         div.bg20.p-5.h-100
-          p.pt-5.mb-0 Habilidades comunicativas de negociación, capacidad de persuación.
+          p.pt-5.mb-0 Habilidades comunicativas de negociación, capacidad de persuasión.
       .tarjeta-avatar
         img.img-a.img-t.img-w(src='@/assets/curso/temas/img47.svg' alt='AvatarTop')
         div.bg19.p-5.h-100
@@ -115,7 +115,7 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img52.png', alt='')
         .bg21.p-3.pt-5.h
           h4 Identidad
-          p.mb-0 Conocer las políticas de la empresa con la que trabaja  
+          p.mb-0 Conocer las políticas de la empresa con la que trabaja.  
 
     .row.justify-content-center.align-items-stretch         
       .col-lg-4.my-4 
@@ -132,11 +132,11 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img55.png', alt='')
         .bg21.p-3.pt-5.h
           h4 Controlar
-          p.mb-0 Medir resultados
+          p.mb-0 Medir resultados.
 
     Separador 
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 2.2 Técnicas de moderación de equipos de trabajo  
+      h2 2.2 Técnica de moderación de equipos de trabajo  
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-4
@@ -164,7 +164,7 @@
               p.mb-0 Su palabra y criterio serán orientadores y se tomarán como reglas o directrices (que deben ser claras).
             li 
               i.fas.fa-atom
-              p.mb-0 Los lineamientos ofrecidos por el líder deben ser conocidas por cada uno de los participantes de la reunión.
+              p.mb-0 Los lineamientos ofrecidos por el líder deben ser conocidos por cada uno de los participantes de la reunión.
             li 
               i.fas.fa-atom
               p.mb-0 En caso de romperse alguna regla, será el moderador quien actúe y promueva el cumplimiento mediante llamados de atención justos y apropiados.                 
@@ -259,7 +259,7 @@
             .col-10
               div(style='background-color: #FAEBCD').p-3.h-100.brad-lef
                 h4.mb-0 Armonizar
-                p.mb-0 Suavizar las disputar (en caso necesario, mediar entre las partes. 
+                p.mb-0 Suavizar las disputar (en caso necesario, mediar entre las partes). 
           .row.justify-content-center.mb-3.g-0
             .col-2
               div(style='background-color: #F0BD51').p-2.h-100.d-flex.align-items-center

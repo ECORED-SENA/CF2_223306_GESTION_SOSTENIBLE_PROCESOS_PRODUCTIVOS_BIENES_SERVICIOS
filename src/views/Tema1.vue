@@ -95,7 +95,7 @@
         .bg4.h-100.p-3
           img.img-a.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/img14.png', alt='')
           .bgp.mb-3.mx-3.p-2
-            h5(data-aos="fade-down").mb-0.text-center Persuasion
+            h5(data-aos="fade-down").mb-0.text-center persuasión
           p(data-aos="fade-down").mb-0 Debe tener una gran capacidad para comunicarse y negociar.
       .col-lg-3.col-md-6.col-sm-8.my-3(data-aos="fade-right")
         .bg4.h-100.p-3

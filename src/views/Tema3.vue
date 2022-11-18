@@ -101,7 +101,7 @@
                 li 
                   .lista-ol--cuadro__vineta.bgv
                     span 10.
-                  p.mb-0 La mejora es infinita    
+                  p.mb-0 La mejora es infinita.    
         .col-lg-6
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img94.svg', alt='')    
 
@@ -165,7 +165,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-8.my-3
             h4.mb-3 Participación
-            p.mb-0 Cada miembro de la organización debe estar involucrado, de forma directa o indirecta, en las acciones de mejora; si embargo, dependiendo del objetivo perseguido se define un equipo encargado de llevar a cabo el proyecto de mejora.    
+            p.mb-0 Cada miembro de la organización debe estar involucrado, de forma directa o indirecta, en las acciones de mejora; sin embargo, dependiendo del objetivo perseguido se define un equipo encargado de llevar a cabo el proyecto de mejora.    
           .col-lg-3.my-3
             img.img-a.img-t(src='@/assets/curso/temas/img98.png', alt='') 
 
@@ -299,7 +299,7 @@
           tr
             td Las 5s 
             td Son utilizadas en las empresas para mejorar las condiciones de trabajo mediante la organización, orden y limpieza del puesto de trabajo.
-            td Las 5s están definidas de la siguiente forma:<br><br><b>1. Eliminar (Seiri)</b>. Todo elemento innecesario o inútil para realizar una tarea.<br><b>2. Ordenar (Seiton)</b>. Define el lugar de ubicación de los elementos necesarios.<br><b>3. Limpieza e inspección (Seiso)</b>. Integrar la limpieza como parte del trabajo diario.<br><b>4. Estandarizar (Seiketsu)</b>. Consolida las metas de las tres primeras “S”.<br><b>5. Disciplina (Shitsuke)</b>. Su objetivo es convertir en hábito el uso de los métodos estandarizados.
+            td Las 5s están definidas de la siguiente forma:<br><br><b>1. Eliminar (<i>Seiri</i>)</b>. Todo elemento innecesario o inútil para realizar una tarea.<br><b>2. Ordenar (<i>Seiton</i>)</b>. Define el lugar de ubicación de los elementos necesarios.<br><b>3. Limpieza e inspección (<i>Seiso</i>)</b>. Integrar la limpieza como parte del trabajo diario.<br><b>4. Estandarizar (<i>Seiketsu</i>)</b>. Consolida las metas de las tres primeras “S”.<br><b>5. Disciplina (<i>Shitsuke</i>)</b>. Su objetivo es convertir en hábito el uso de los métodos estandarizados.
           tr
             td SMED     
             td Este sistema se utiliza para reducir los tiempos de preparación.    
@@ -319,26 +319,26 @@
             td Se utiliza con el fin de tener una comunicación visual, facilitando a todos los empleados el avance de las acciones de mejora.                  
             td Es implementado ya que permite informar de una manera fácil temas de mejora continua. 
           tr
-            td Jidoka                   
+            td <i>Jidoka</i>                   
             td Técnica para identificar los errores que producen las maquinarias.                   
             td Minimiza el número de defectos a reparar. 
           tr
             td Técnicas de calidad                   
             td Persigue la eliminación de defectos y garantizar la calidad.                  
-            td Entre estas técnicas se destacan: TQM (Total Quality Management), destacando entre todas ellas los chequeos de autocontrol, la matriz de autocalidad, Sigma, el análisis PDCA y la implantación de planes cero defectos. 
+            td Entre estas técnicas se destacan: TQM (<i>Total Quality Management</i>), destacando entre todas ellas los chequeos de autocontrol, la matriz de autocalidad, Sigma, el análisis PDCA y la implantación de planes cero defectos. 
           tr
             td Sistema de participación del personal (SPP)                   
             td Grupos de trabajo que supervisan y mejoran el sistema Lean.                   
             td Mejora el relacionamiento y comunicación en los diferentes niveles de la empresa.<br>Genera la motivación del personal. 
 
           tr
-            td Heijunka                   
+            td <i>Heijunka</i>                   
             td Sirve para planificar y nivelar la demanda de los clientes hacia la producción en flujo continuo.                   
             td Esta técnica permite crear un sistema de flujo constante de producción.       
           tr
-            td Kanban                   
+            td <i>Kanban</i>                   
             td Sistema de control sincronizado de la producción basada en tarjetas.                   
-            td Existen dos tipos de Kanban, el de producción, que indica cuánto y qué fabricar y el de transporte, que indica cuánto material se retira del anterior proceso.                   
+            td Existen dos tipos de <i>Kanban</i>, el de producción, que indica cuánto y qué fabricar y el de transporte, que indica cuánto material se retira del anterior proceso.                   
 </template>
 
 <script>

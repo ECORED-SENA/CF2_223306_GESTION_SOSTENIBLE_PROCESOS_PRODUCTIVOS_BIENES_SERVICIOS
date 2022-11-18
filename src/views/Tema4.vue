@@ -244,7 +244,7 @@
                   p.mb-0 Análisis de escenarios.
                 li 
                   i.fas.fa-atom
-                  p.mb-0 Data mining.
+                  p.mb-0 <i>Data mining</i>.
                 li 
                   i.fas.fa-atom
                   p.mb-0 Análisis de sentimientos.
