@@ -204,9 +204,9 @@ export default {
     {
       tema: 'Herramientas y métodos para la toma de decisiones',
       referencia:
-        'Castaño, M. (2020). <i>Herramientas estratégicas para toma de decisiones</i> [video].',
+        'Ecosistema de Recursos Educativos Digitales SENA (2022) Tratamiento de la información y toma de decisiones introducción [video].',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=zV5JIXui0k8',
+      link: 'https://www.youtube.com/watch?v=Ux4QU1qbCaA',
     },
   ],
   glosario: [
